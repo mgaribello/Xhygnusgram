@@ -1,9 +1,22 @@
+<script>
+import Header from '../components/Header.svelte';
+import Main from '../components/Main.svelte';
+import TimeLine from '../components/TimeLine.svelte';
+import Sidebar from '../components/Sidebar.svelte';
+
+</script>
+
 <style>
     :global(body){
-        background-color: antiquewhite;
+        background-color:#676778;
         color: white;
     }
 </style>
-<div class="main">
-    <h1>Hola Xhygnusgram</h1>
-</div>
+
+<Header/>
+
+<Main>
+<TimeLine/>
+<Sidebar/>
+
+</Main>

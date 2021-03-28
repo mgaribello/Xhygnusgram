@@ -8,7 +8,7 @@ module.exports = {
     filename: "bundle.js",
   },
   resolve: {
-    extesions: ["*", ".mjs", ".js", ".svelte"],
+    extensions: ["*", ".mjs", ".js", ".svelte"],
   },
   module: {
     rules: [
@@ -28,7 +28,7 @@ module.exports = {
       },
     ],
   },
-  plugin: [
+  plugins: [
     new HtmlWebpackPlugin({
       inject: true,
       template: "./public/index.html",
