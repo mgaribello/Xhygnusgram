@@ -1,0 +1,21 @@
+{
+  "name": "xhygnusgram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mgaribellor",
+  "license": "MIT",
+  "dependencies": {
+    "svelte": "^3.35.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "svelte-loader": "^3.0.0"
+  }
+}
